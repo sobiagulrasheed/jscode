@@ -186,19 +186,122 @@
 //  if (feul  <500){
 //  document.write("recharge your fuel")}
 
-var  total_marks = 300
-var  marks_obtained = prompt("enter your marks")
-var  percentage = total_marks/marks_obtained*100
- if (percentage >=80){
-document.write("<h1> Mark Sheet </h1>" + "<br>" + "total Marks" +  total_marks + "<br>" +  "obtain Marks" 
-+ marks_obtained + "<br>" 
-+ " Grade : your grade is A - One" + "<br>" + " Remark :you are excellent" 
-+ "<br>" + "Your Pecentage is " + percentage)}
-else if (percentage >=70){
-    document.write("<h1> Mark Sheet </h1>" + "<br>" + "total Marks" +  total_marks + "<br>" +  "obtain Marks" 
-    + marks_obtained + "<br>" 
-    + " Grade : your grade is A " + "<br>" + " Remark :you are good" 
-    + "<br>" + "Your Pecentage is " + percentage)}
+// var  total_marks = 300
+// var  marks_obtained = +prompt("enter your marks")
+// var  percentage = (marks_obtained/total_marks)*100
+//  if (percentage >= 80){
+// document.write("<h1> Mark Sheet </h1>" + "<br>" + "total Marks" +  total_marks + "<br>" 
+// +  "obtain Marks" 
+// + marks_obtained + "<br>" 
+// + " Grade : your grade is A - One" + "<br>" + " Remark :you are excellent" 
+// + "<br>" + "Your Pecentage is " + percentage)}
+// else if (percentage >=70){
+//     document.write("<h1> Mark Sheet </h1>" + "<br>" + "total Marks" +  total_marks + "<br>" +  "obtain Marks" 
+//     + marks_obtained + "<br>" 
+//     + " Grade : your grade is A " + "<br>" + " Remark :you are good" 
+//     + "<br>" + "Your Pecentage is " + percentage)}
+
+// var guess = +prompt("enter Your Digit,1 to 10")
+// var ans = 5
+// if (guess == ans){
+//     alert("Bingo!")
+// }
+// else if ( ++guess !== ans ){
+//     alert(" show Close enough to the correct answer")
+// }
+// var divisible = +prompt('Enter the Number');
+// if (divisible % 3 === 0) {
+//     alert('Yes! this number is divisible by 3');
+// }
+// else if (divisible % 3 === 1) {
+//     alert('No! this is not divisible by 3');
+// }
+
+// var even = +prompt("Enter You Digit")
+// if ( even % 2 === 0){
+//     alert("This is even Number")
+// }
+// else if (even % 2 === 1){
+//     alert("This is odd Number")
+// }
+
+// var tempt = +prompt("Enter Your Temperature")
+// if ( tempt > 40){
+//     alert("“It is too hot outside.")
+// }
+// else if (tempt > 30){
+//     alert("The Weather today is Normal.")
+// }
+// else if (tempt > 20){
+//     alert("Today’s Weather is cool.”")
+// }
+// else if (tempt > 10){
+//     alert(" “OMG! Today’s weather is so Cool.”")
+// }
+
+// var char = +prompt("Enter You Character")
+// if ( char >= 65 && char <= 90){
+//     alert("Character is Capital Letter")
+// }
+// else if (char >= 97 && char <= 122)
+// {
+//     alert("Character is a small letter");
+// }
+// else if (char >= 48 && char <= 57)
+// {
+//     alert("Character is a digit");
+// }
+
+// var large1 = +prompt("Enter Your Number")
+// var large2 = +prompt("enter your Number")
+// if ( large1 > large2){
+//     alert(large1 + "is large than" + large2)
+// }
+//  else if ( large2 > large1){
+//     alert(large1 + "is less than" + large2)
+// }
+
+// var inte = +prompt("write a number")
+// if (inte > 0){
+//     alert("this is positive number")
+// }
+// else if (inte === 0 ){
+//     alert("this number is zero")
+// }
+// else if (inte < 0){
+//     alert("this is negative")
+// }
+
+// var vowel = prompt("write a vowel Number")
+// if (vowel == "a" || vowel == "e" || vowel == "o" || vowel =="u"){
+//     alert("true")
+// }
+// else if (vowel != 'a' || vowel != 'e' || vowel != 'o' || vowel !='u'){
+//     alert("fasle")}
+
+// var pass = prompt("Enter Your Pasword")
+// if (pass === "pakistan"){
+//     alert("your password is correct")
+// }
+// else if (pass !=="pakistan"){
+//     alert("incorrect Password")
+// }
+
+// var arry =[];
+// var arra = arrb () 
+// var string = ["areej","khizar","Hassan"];
+// var number = [1,2,3];
+// var bolean = [0,1]
+// var mix = [1,"one",2,"two"]
+
+var edu = [ "SSC", "HSC", "BCS",
+    "BS", "BCOM", "MS", "M. Phil" , "PhD"]
+        document.write( '<h1> Qualification </h1>' + "<br>" + edu)
+        
+
+
+
+
 
  
 
